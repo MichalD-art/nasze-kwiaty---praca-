@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Rejestracja</title>
+    <link rel="stylesheet" href="rejestracja.css">
+</head>
+<body>
+    <header>
+        <h1>Formularz rejestracyjny konferencji <em>Nasze Kwiaty</em></h1>
+    </header>
+    <main>
+        <section>
+            <h2>Dane osobowe</h2>
+            <form>
+                <label for="imie">Wpisz imię...</label>
+                <input type="text" id="imie" name="imie" required><br>
+                <label for="nazwisko">Wpisz nazwisko...</label>
+                <input type="text" id="nazwisko" name="nazwisko" required><br>
+                <button type="button" onclick="następnaKarta()">Następna karta</button>
+            </form>
+        </section>
+        <section>
+            <h2>Dane kontaktowe</h2>
+            <form>
+                <label for="email">Twój e-mail...</label>
+                <input type="email" id="email" name="email"><br>
+                <label for="telefon">Twój numer telefonu...</label>
+                <input type="tel" id="telefon" name="telefon"><br>
+                <button type="button" onclick="następnaKarta()">Następna karta</button>
+            </form>
+        </section>
+        <section>
+            <h2>Hasło do logowania</h2>
+            <form>
+                <label for="haslo">Podaj hasło</label>
+                <input type="password" id="haslo" name="haslo"><br>
+                <label for="powtorzHaslo">Powtórz hasło</label>
+                <input type="password" id="powtorzHaslo" name="powtorzHaslo"><br>
+                <button type="button" onclick="zatwierdz()">Zatwierdź</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <video controls>
+                <source src="motyl.mp4" type="video/mp4">
+                Przeglądarka nie obsługuje tego formatu
+            </video>
+        </section>
+        <section>
+            <h3>Plan konferencji</h3>
+            <table>
+                <tr><td>9:00 - 12:00</td><td>Pielęgnacja roślin</td></tr>
+                <tr><td>13:00 - 15:00</td><td>Targi kwiatowe</td></tr>
+            </table>
+        </section>
+        <section>
+            <p><a href="https://kwiaty.pl/">Internetowa kwiaciarnia</a></p>
+        </section>
+        <section>
+            <p>Formularz wykonał: [wstaw numer zdającego]</p>
+        </section>
+    </footer>
+    <script>
+        function następnaKarta() {
+            // Efekt działania skryptu
+        }
+
+        function zatwierdz() {
+            // Efekt działania skryptu
+        }
+    </script>
+</body>
+</html>
